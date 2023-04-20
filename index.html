@@ -1,12 +1,161 @@
 <!DOCTYPE html>
 
 
+
 <html>
 <head>
     <title>Regina Carriker</title>
 </head>
+<style>
+    body {
+        margin: 0;
+        margin-top: 50px;
+    }
 
+    header {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        line-height: 50px;
+        background-color: #eee;
+    }
+
+        header * {
+            display: inline;
+            height: 50px;
+        }
+
+        header ul {
+            padding: 0;
+        }
+
+        header li {
+            margin-left: 20px;
+        }
+
+    section {
+        height: 100vh;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 30%;
+        padding-left: 30%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no repeat;
+        background-attachment: fixed;
+    }
+
+    #home.profile-img {
+        width: 300px;
+        border-radius: 50%
+    }
+
+    footer {
+        text-align: center;
+        padding: 50px;
+    }
+
+    #home h1 {
+        font-size: 3em;
+    }
+
+    section h2 {
+        font-size: 2.5em;
+    }
+
+    section h3 {
+        font-size: 1.5em;
+    }
+
+    header a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #home {
+        background-color: pink;
+    }
+
+    #about {
+        background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://osagenews.org/wp-content/uploads/2023/01/University-of-Oklahoma-Online_Facebook-Cover-photo_Feb23.jpeg');
+    }
+
+    #projects {
+        background-color: rgba(255, 0, 0, 0.6);
+    }
+
+    #skills {
+        background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://osagenews.org/wp-content/uploads/2023/01/University-of-Oklahoma-Online_Facebook-Cover-photo_Feb23.jpeg');
+    }
+</style>
 <body>
+    <header>
+        <img src="https://media.licdn.com/dms/image/C4E03AQHV-vEsBdrb3w/profile-displayphoto-shrink_400_400/0/1572314146414?e=1687392000&v=beta&t=kRKAUj8yq3F1ZSSZgST_oU871EhzirZIKa11vDqiBuY" class="profile" />
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
 
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="section-inner">
+                <img src="https://media.licdn.com/dms/image/C4E03AQHV-vEsBdrb3w/profile-displayphoto-shrink_400_400/0/1572314146414?e=1687392000&v=beta&t=kRKAUj8yq3F1ZSSZgST_oU871EhzirZIKa11vDqiBuY" class="profile" />
+                <h1>Regina Carriker</h1>
+                <p>Student at The University of Oklahoma</p>
+                <p>Michael F. Price College of Business</p>
+                <p>Management Information Systems and Digital Marketing</p>
+
+            </div>
+        </section>
+        <section id="about">
+            <div class="section-inner">
+                <h2>About Me</h2>
+                <p> Hi! My name is Regina Carriker. I am from Seattle, WA and currently attend The University of Oklahoma where I study Management Information Systems and Digital Marketing. I am graduating in May of 2023. I am interested in marketing research, social media marketing, cyber security, and software development.</p>
+                <h3>Contact Me</h3>
+                <p><a href="https://www.linkedin.com/in/regina-carriker/" target="_blank">LinkedIn</a></p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="section-inner">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Field Project: FAA Clause Comparison Tool using C#</li>
+                    <li>Database Project using SQL</li>
+                    <li>Marketing Analysis for Revlon</li>
+                    <li>VBA Program that customizes workouts for women</li>
+                    <li>Documentary on Ukrainian refugees: <a href="https://www.youtube.com/watch?v=MXnbGfb_G0M" target="_black">Documentary</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="section-inner">
+                <h2>Skills</h2>
+                <ul>
+                    <li>C#</li>
+                    <li>R</li>
+                    <li>VBA</li>
+                    <li>SQL</li>
+                    <li>HTML</li>
+                    <li>SAP</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
 </body>
 </html>
